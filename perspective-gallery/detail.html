@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Your document title</title>
+  <link rel="stylesheet" href="css/global.css">
+  <script src="js/jquery-3.7.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+
+<div id="header">
+  <div id = "title-box">
+      <img src = "img/artOutreach.png" alt = "logo">
+      <h1> Perspective Gallery Info System</h1>
+  </div> <!-- title box-->
+
+  <div id = "login-box">
+    <p> Hello Bob<br>
+    <a href="./homeAlt.html"> log out </a></p>
+  </div> <!--login box-->
+
+  <ul id="primary-nav">
+    <li><a  href="./home.html" >  Home</a></li>
+    <li><a  href="./list.html"> List</a></li>
+    <li><a  href="./detail.html" class="selected"> Details</a></li>
+    <li><a  href="./addEdit.html"> Add/Edit</a></li>
+    <li><a  href="./chat.html"> Chat</a></li>
+  </ul><!--nav menu-->
+
+</div><!--header-->
+
+<div id="content">
+
+  <div id="details">
+    <p>
+      Shift Date: Wed 8/9<br>
+      Shift Time: 6-9<br>
+      Employee: Bob<br>
+      Number of Student Visitors: 5<br>
+      Number of Non-Student Visitors: 2<br>
+      Type: Gallery<br>
+      Comments: <br>
+        Jack will be coming in to pick up supplies for the event next Tuesday
+    </p>
+  </div><!--shift info-->
+
+  <div id="tallyCounters">
+    <div id = "Student-tally">
+      <h3>Students</h3>
+      <div class = "patronCount"> 5</div>
+      <button class = "tallyUp" type="button">+</button>
+      <button class = "tallyDown" type="button">-</button>
+    </div>
+
+    <div id = "nonStudent-tally">
+      <h3>Non-Students</h3>
+      <div class = "patronCount"> 5</div>
+      <button class = "tallyUp" type="button">+</button>
+      <button class = "tallyDown" type="button">-</button>
+    </div>
+  </div><!--tally section-->
+
+</div>
+
+<div id="footer">
+  <div>
+    <p><a href="./home.html">Home</a> | <a href="./list.html">List</a> | <a href="./detail.html">Details</a>
+      | <a href="./addEdit.html">Add/Edit</a> | <a href="./chat.html">Chat</a> | <a href="#">Help</a> | <a href="#">Feedback</a></p>
+  </div>
+</div><!--footer-->
+
+</body>
+
+
+

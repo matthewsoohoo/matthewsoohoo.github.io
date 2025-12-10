@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Your document title</title>
+<link rel="stylesheet" href="css/global.css">
+  <script src="js/jquery-3.7.1.js"></script>
+<script src="js/scripts.js"></script>
+</head>
+<body>
+
+<div id="header">
+  <div id = "title-box">
+      <img src = "img/artOutreach.png" alt = "logo">
+      <h1> Perspective Gallery Info System</h1>
+  </div> <!-- title box-->
+
+  <div id ="login-box">
+    <p> Hello Bob<br>
+    <a href="./homeAlt.html"> log out </a></p>
+  </div> <!--login box-->
+
+  <ul id="primary-nav">
+    <li><a  href="./home.html">  Home</a></li>
+    <li><a  href="./list.html"> List</a></li>
+    <li><a  href="./detail.html"> Details</a></li>
+    <li><a  href="./addEdit.html" class="selected"> Add\Edit</a></li>
+    <li><a  href="./chat.html"> Chat</a></li>
+  </ul><!--nav menu-->
+
+</div><!--header-->
+
+<div id="content">
+  <div id = "inputs">
+    <form id="line-inputs" >
+      <label> Date
+        <input type = "date" id="date" class = "lines">
+      </label>
+      <label> Start Time
+        <input type="text" id="startTime" class = "lines">
+      </label>
+      <label> End Time
+        <input type="text" id="endTime" class = "lines">
+      </label>
+      <label> Employee
+        <input type = "text" id="employee" >
+      </label>
+      <label> Students
+        <input type = "number" id="students" placeholder="0">
+      </label>
+      <label> Non-Students
+        <input type = "number" id="nonStudents" placeholder="0">
+      </label>
+      <label> Type
+        <input type = "text" id="type" placeholder="Gallery">
+      </label>
+    </form>
+
+  </div><!--shift detail inputs-->
+
+  <div id= "commentBox">
+    <form id="box-input">
+    <label> Comments
+      <textarea  cols="30" rows="10"></textarea>
+    </label>
+  </form>
+  </div><!--comment box-->
+
+  <div class="addEditButtons">
+    <input class="addShift" type = "submit" value="Add Shift">
+    <input class = "editShift" type = "submit" value="Save Changes">
+    <input type = "submit" value="Delete Shift">
+  </div><!--add/delete/save buttons-->
+</div>
+
+<div id="footer">
+  <div>
+    <p><a href="./home.html">Home</a> | <a href="./list.html">List</a> | <a href="./detail.html">Details</a>
+      | <a href="./addEdit.html">Add/Edit</a> | <a href="./chat.html">Chat</a> | <a href="#">Help</a> | <a href="#">Feedback</a></p>
+  </div>
+</div><!--footer-->
+
+</body>

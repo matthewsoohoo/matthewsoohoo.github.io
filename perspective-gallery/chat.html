@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Your document title</title>
+<link rel="stylesheet" href="css/global.css">
+  <script src="js/jquery-3.7.1.js"></script>
+<script src="js/scripts.js"></script>
+</head>
+<body>
+
+<div id="header">
+  <div id = "title-box">
+      <img src = "img/artOutreach.png" alt = "logo">
+      <h1> Perspective Gallery Info System</h1>
+  </div> <!-- title box-->
+
+  <div id ="login-box">
+    <p> Hello Bob<br>
+    <a href="./homeAlt.html"> log out </a></p>
+  </div><!--login box-->
+
+  <ul id="primary-nav">
+    <li><a  href="./home.html">  Home</a></li>
+    <li><a  href="./list.html" > List</a></li>
+    <li><a  href="./detail.html"> Details</a></li>
+    <li><a  href="./addEdit.html"> Add/Edit</a></li>
+    <li><a  href="./chat.html" class="selected"> Chat</a></li>
+  </ul><!--nav menu-->
+
+</div><!--header-->
+
+<div id="content">
+
+
+  <div id = "chatContainer">
+    <div class="chatMessage">
+      <p class="chatter">Jack</p>
+      <p class = chatCat>Shift Needs</p>
+      <p class="chatCont">I am going out of town on Thursday 7/14. I will need coverage for my 6-9 shift</p>
+      <button id = "reply">Reply</button>
+      <p class="chatTime">7/7 10:40 pm</p>
+    </div>
+
+
+    <form id="box-input">
+      <label> Type here
+        <textarea id="userInput" cols="100" rows="10"></textarea>
+      </label>
+    </form>
+    <button id="post">Post</button>
+  </div><!--table container-->
+
+</div><!--content-->
+
+<div id="footer">
+  <div>
+    <p><a href="./home.html">Home</a> | <a href="./list.html">List</a> | <a href="./detail.html">Details</a>
+      | <a href="./addEdit.html">Add/Edit</a> | <a href="./chat.html">Chat</a> | <a href="#">Help</a> | <a href="#">Feedback</a></p>
+  </div>
+</div><!--footer-->
+
+</body><!--end-->
